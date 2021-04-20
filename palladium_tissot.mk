@@ -8,15 +8,32 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from tissot device
+$(call inherit-product, device/xiaomi/tissot/device.mk)
+
+# Inherit some common PalladiumOS stuff.
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
+#PALLADIUM-PROPS
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladiumdevice.maintainer=Unknownbitch \
+    ro.palladiumdevice.cpu=SD625 \
+    ro.palladiumdevice.display=5.5 \
+    ro.palladiumdevice.displaytype=FHD \
+    ro.palladiumdevice.battery=3080mAh \
+    ro.palladiumdevice.camera=12MP+12MP
+
+#OFFICIAL
+PALLADIUM_BUILD_TYPE := OFFICIAL
 
 # Inherit from tissot device
 $(call inherit-product, device/xiaomi/tissot/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
-PRODUCT_NAME := lineage_tissot
+PRODUCT_NAME := palladium_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi A1
