@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/palladium_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    palladium_tissot-user \
+    palladium_tissot-userdebug \
+    palladium_tissot-eng
