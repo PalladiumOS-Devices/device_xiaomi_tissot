@@ -20,4 +20,4 @@
 
 ## Device Picture
 
-![Xiaomi Mi A1](https://i.imgur.com/4UF7PpM.png "Xiaomi Mi A1")
+![Xiaomi Mi A1](https://i.imgur.com/hsqlYEy.png "Xiaomi Mi A1")
