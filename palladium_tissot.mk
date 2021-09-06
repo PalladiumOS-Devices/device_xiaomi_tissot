@@ -36,7 +36,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.palladiumdevice.camera=12MP+12MP
 
 #OFFICIAL
-PALLADIUM_BUILDTYPE := OFFICIAL
+PALLADIUM_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
