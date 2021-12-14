@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_tissot.mk
+    $(LOCAL_DIR)/palladium_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_tissot-user \
-    ssos_tissot-userdebug \
-    ssos_tissot-eng
+    palladium_tissot-user \
+    palladium_tissot-userdebug \
+    palladium_tissot-eng
