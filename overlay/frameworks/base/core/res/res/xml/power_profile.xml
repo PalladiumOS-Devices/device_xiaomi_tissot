@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="screen.on">63</item>
-    <item name="screen.full">261</item>
+    <item name="screen.on.display0">63</item>
+    <item name="screen.full.display0">261</item>
     <array name="cpu.speeds">
         <value>200000</value>
         <value>499200</value>
@@ -20,7 +20,7 @@
         <value>307</value>
         <value>353</value>
     </array>
-    <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">1.6</item>
+    <item name="cpu.suspend">1.6</item>
     <item name="battery.capacity">3080</item>
 </device>
