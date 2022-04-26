@@ -1,0 +1,44 @@
+[
+  {
+    "remote": "github",
+    "repository": "PalladiumOS-Devices/device_xiaomi_msm8953-common",
+    "target_path": "device/xiaomi/msm8953-common",
+    "branch": "12.1"
+  },
+  {
+    "remote": "github",
+    "repository": "MatchaKoi/kernel_xiaomi_tissot",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch": "snow"
+  },
+  {
+    "remote": "github",
+    "repository": "PalladiumOS-Devices/vendor_xiaomi_tissot",
+    "target_path": "vendor/xiaomi/tissot",
+    "branch": "12.1"
+  },
+  {
+    "remote": "github",
+    "repository": "PalladiumOS-Devices/vendor_xiaomi_msm8953-common",
+    "target_path": "vendor/xiaomi/msm8953-common",
+    "branch": "12.1"
+  },
+  {
+     "remote":"github",
+     "repository":"LineageOS/android_hardware_qcom_audio",
+     "target_path":"hardware/qcom-caf/msm8996/audio",
+     "branch":"lineage-19.1-caf-msm8996"
+  },
+  {
+      "remote":"github",
+      "repository":"PixelExperience/hardware_qcom-caf_msm8996-r_display",
+      "target_path":"hardware/qcom-caf/msm8996/display",
+      "branch":"twelve"
+  },
+  {
+      "remote":"github",
+      "repository":"PixelExperience/hardware_qcom-caf_msm8996-r_media",
+      "target_path":"hardware/qcom-caf/msm8996/media",
+      "branch":"twelve"
+  }
+]
