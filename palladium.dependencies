@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "MatchaKoi/kernel_xiaomi_tissot",
+    "repository": "Evolution-X-Devices/kernel_xiaomi_tissot",
     "target_path": "kernel/xiaomi/msm8953",
     "branch": "snow"
   },
@@ -31,9 +31,9 @@
   },
   {
       "remote":"github",
-      "repository":"PixelExperience/hardware_qcom-caf_msm8996-r_display",
+      "repository":"ucoboy/tissot_hals",
       "target_path":"hardware/qcom-caf/msm8996/display",
-      "branch":"twelve"
+      "branch":"display_s"
   },
   {
       "remote":"github",
